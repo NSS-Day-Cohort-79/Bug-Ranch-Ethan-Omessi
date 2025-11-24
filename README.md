@@ -92,7 +92,7 @@ Your journey will take you through the wildness of the American Midwest and acro
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
    > The value of the database variable is an array that has two other arrays. It holds cattleType arrays and drovers array. The cattleTypes array has the cattle's id number and breed. While the drovers array holds the id number, first name, last name, and gender of the drovers. The database array is known as a multidimensional array.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > In the function hireDrover the herdSize is a parameter. The job the parameter works is has a placeholder. It lets certain value/arguments pass into the function. In the function herdSize isn't read but if a person would want herdSize then they would need to give herdSize a value or invoke it in the function body.
+   > In the function hireDrover the herdSize is a parameter. herdSize in the function is used to find the value in numberNeeded. herdSize is divided by ten to get the numeric value for numberNeeded. 
 
 ## When You Are Done
 
